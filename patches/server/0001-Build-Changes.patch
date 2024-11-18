@@ -25,6 +25,7 @@ index 421f6b3dc8890d63d2e7aa774d0bf8f7e15890ab..ef23b818c58015cd4be77962ea257d4c
 +    // ASWM start
 +    implementation(project(":slimeworldmanager-api"))
 +    implementation(project(":core"))
++    implementation(project(":api"))
 +    implementation("io.papermc.paper:paper-mojangapi:1.20.4-R0.1-SNAPSHOT") {
 +        exclude("io.papermc.paper", "paper-api")
 +    }
